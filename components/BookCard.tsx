@@ -1,6 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 import { BookCardProps } from "@/types";
+import Image from "next/image";
 
 const BookCard = ({ title, author, coverURL, slug }: BookCardProps) => {
   return (
